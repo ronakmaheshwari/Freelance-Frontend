@@ -24,8 +24,8 @@ const Navbar = () => {
         <NavigationMenu>
           <NavigationMenuList className="flex space-x-6">
             <NavigationMenuItem className="flex space-x-6">
-              <NavigationMenuLink className="text-blue-600 font-medium">
-                Home
+            <NavigationMenuLink className="font-medium text-blue-600">
+                <Link to="/">Home</Link>
               </NavigationMenuLink>
               <NavigationMenuLink className="font-medium">
                 <Link to="/jobs">Jobs</Link>
