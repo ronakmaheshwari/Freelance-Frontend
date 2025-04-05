@@ -8,6 +8,7 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -22,9 +23,12 @@ const Navbar = () => {
         {/* Center - Navigation Links */}
         <NavigationMenu>
           <NavigationMenuList className="flex space-x-6">
-            <NavigationMenuItem>
+            <NavigationMenuItem className="flex space-x-6">
               <NavigationMenuLink className="text-blue-600 font-medium">
                 Home
+              </NavigationMenuLink>
+              <NavigationMenuLink className="font-medium">
+                <Link to="/jobs">Jobs</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
@@ -89,10 +93,10 @@ const Navbar = () => {
         {/* Right - Buttons*/}
         <div className="flex items-center space-x-4">
           <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
-            BROWSE JOBS
+            Log in
           </Button>
           <Button className="bg-blue-600 text-white shadow-lg hover:bg-blue-700">
-            POST A JOB
+            Sign Up
           </Button>
         </div>
       </div>

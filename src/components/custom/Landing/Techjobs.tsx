@@ -13,10 +13,10 @@ const Techjobs = () => {
 
                 <div className=" flex gap-20">
                     {/* Job Cards List */}
-                    <div className="w-3/4">
+                    <div className="w-3/5">
                         <Jobcard />
                     </div>
-                    <div className="w-1/4">
+                    <div className="w-2/5">
                     <Button className="absolute bg-blue-600 py-6 px-10 right-0 top-15">POST A JOB</Button>
                     <div className="font-semibold text-2xl mt-6">Search Jobs</div>
                         <div className="relative w-full max-w-2xl mt-4">

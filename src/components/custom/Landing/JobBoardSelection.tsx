@@ -35,7 +35,7 @@ const companies = [
 
 const JobBoardSection = () => {
     return (
-        <section className="py-16 px-6 text-center bg-gray-50">
+        <section className="py-16 px-6 text-center bg-white">
             <div className="max-w-7xl mx-auto">
                 {/* Header Section */}
                 <h2 className="text-3xl font-bold text-gray-900">
