@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Sidenav from './Sidenav'
 import Jobcard from '../utils/Jobcard'
 
